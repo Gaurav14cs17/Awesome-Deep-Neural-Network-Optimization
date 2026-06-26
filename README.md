@@ -1,5 +1,9 @@
 # Awesome Deep Neural Network Optimization [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<p align="center">
+  <img src="imgs/banner.png" alt="Awesome Deep Neural Network Optimization Banner" width="900"/>
+</p>
+
 A curated, comprehensive list of papers, tools, and codebases covering **all major optimization techniques** for deep neural networks — from training to inference, from cloud to edge. We continuously improve this project. PRs for missing works are welcome.
 
 ---
@@ -772,51 +776,9 @@ The [Fast Hadamard Transform (FHT)](https://en.wikipedia.org/wiki/Hadamard_trans
 
 ## Optimization Taxonomy at a Glance
 
-```
-Deep Neural Network Optimization
-│
-├── Model Compression
-│   ├── Quantization (PTQ, QAT, Binary, Mixed-Precision)
-│   ├── Pruning (Unstructured, Structured, Dynamic)
-│   ├── Knowledge Distillation (Response, Feature, Self, Data-Free)
-│   └── Matrix Decomposition (SVD, Tensor, Low-Rank, Hadamard)
-│
-├── Efficient Architecture Design
-│   ├── Efficient Attention (Flash, Linear, Sparse)
-│   ├── State Space Models (S4, Mamba, RWKV)
-│   ├── Mixture of Experts (MoE)
-│   ├── Lightweight CNNs (MobileNet, EfficientNet, GhostNet)
-│   └── Neural Architecture Search (NAS)
-│
-├── Training Optimization
-│   ├── Optimizers (Adam, LAMB, Sophia, Muon, Shampoo)
-│   ├── Mixed-Precision Training (FP16, BF16, FP8, FP4)
-│   ├── Gradient Compression & Communication
-│   ├── Distributed Training (ZeRO, FSDP, Pipeline/Tensor Parallelism)
-│   └── Memory-Efficient Training (Checkpointing, GaLore, ActNN)
-│
-├── Inference Optimization
-│   ├── Operator Fusion & Kernel Engineering (Triton, CUTLASS)
-│   ├── Speculative Decoding (EAGLE, Medusa)
-│   ├── KV Cache Optimization (MQA, GQA, MLA, Quantized KV)
-│   ├── Serving Systems (vLLM, SGLang, TensorRT-LLM)
-│   └── Compilation (TVM, XLA, torch.compile)
-│
-├── Parameter-Efficient Fine-Tuning (PEFT)
-│   ├── LoRA & Variants (QLoRA, DoRA, LoRA+)
-│   ├── Prompt Tuning & Prefix Tuning
-│   └── Adapters
-│
-├── Token & Sequence Optimization
-│   ├── Token Pruning & Merging (ToMe, DynamicViT)
-│   ├── Early Exit / Dynamic Inference
-│   └── Context Compression (LLMLingua)
-│
-└── Hardware-Specific Optimization
-    ├── GPU Kernels (FlashAttention, fast-hadamard-transform)
-    ├── Edge & Mobile (llama.cpp, MLC LLM, MCUNet)
-    └── FPGA & ASIC (FINN, TPU)
-```
+<p align="center">
+  <img src="imgs/taxonomy.png" alt="DNN Optimization Taxonomy" width="900"/>
+</p>
 
 ---
 
